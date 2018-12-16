@@ -56,7 +56,8 @@ BlackList will be broadcasted by Spark broadcast variable
 ### How-to-run
 #### Environment-Dependence 
 ```
-
+Spark Cluster with Standalone or Local mode (can download spark installation package in http://spark.apache.org/downloads.html )
+MySQL 5.0
 ```
 #### Deployment-Configuration
 ##### Data Simulation
