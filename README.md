@@ -24,23 +24,33 @@ topN highest traffic statistics for each region, road real-time congestion stati
 ### Functions-Introduction
 #### Intersection-Traffic-Analysis
 ```
-
+Intersection Traffic Analysis module provides analysis of normal & abnormal cameras information & intersections.
+Analysis is realized by Spark Core from raw traffic data of cameras in intersections.
+Analysis can help to find the broken cameras.
 ```
 #### Car-Path-Track
 ```
-
+Car Path Track module provides path list of specific cars.
+Analysis is realized by Spark Core from raw traffic data of cameras in intersections.
+Car path track result list is sorted by time and can stands car real path.
 ```
 #### TopN-Highest-Traffic
 ```
-
+TopN highest traffic module provides topM highest speed of topN highest average speed intersection.
+In example, can get top10 highest speed of top5 high speed intersection.
+The analysis can help to find intersections which car often go through fast.
+The analysis result can help to find out the reason and prevent traffic accidents.
 ```
 #### Real-time-Congestion
 ```
-
+Real time congestionn module provides analysis traffic congestionn situation.
+Analysis is realized by Spark Streaming from raw traffic data with cars real speed.
+Analysis can provide different timeliness.
 ```
 #### Real-time-Car-Blacklist
 ```
-
+Real time Car Blacklist module provides real time blacklist broadcast to each camera.
+BlackList will be broadcasted by Spark broadcast variable
 ```
 
 ### How-to-run
